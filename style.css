@@ -69,3 +69,104 @@ html, body {
     height: 200px;
     flex: 1;
 }
+
+
+.box-title {
+    display:flex;
+    align-content: center;
+    flex-direction: column; /* stacks the box and text vertically */
+    align-items: center;    /* Center horizontally */
+    text-align: center; /* center the wrapped text */
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+ 
+
+}
+.box-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.box-item {
+  display: flex;
+  flex-direction: column;  /* Stack vertically */
+  align-items: center;     /* Center horizontally */
+  text-align: center;
+  flex-wrap: wrap; 
+  width: 150px; /* Ensures the text wraps under the box */
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3b82f6; /* blue border */
+  border-radius: 12px;
+  background-color: transparent; /* keep it empty */
+}
+
+.text {
+    color: gray;
+    font-size: 14px;
+    color: #6b7280;
+    word-wrap: break-word; /* breaks long strings if needed */
+}
+  
+.quote-section { 
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 50px 20px;
+
+}
+
+.quote-item {
+    max-width: 800px;
+    text-align: left;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 12px;
+
+}
+
+.quoter-title {
+    font-weight: bold;
+    text-align: right;
+    color: #1f2937;
+}
+
+
+
+.blue-box {
+    display: flex;
+    width: 700px;
+    height: 100px;
+    border: 3px solid #3b82f6; /* blue border */
+    border-radius: 12px;
+    background-color: #3b82f6; /* keep it empty */
+    color: white;
+    padding: 20px;
+}
+
+.end-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  padding: 20px;
+  margin-top: auto; /* Pushes it to the bottom */
+}
+
