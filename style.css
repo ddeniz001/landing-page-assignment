@@ -50,7 +50,7 @@ html, body {
 }
 .hero-text button {
     padding: 12px 24px;
-    background-color: #3882f6;
+    background-color: goldenrod;
     color: white;
     border: none;
     border-radius: 6px;
@@ -59,7 +59,6 @@ html, body {
 }
 
 .hero-image {
-    font-size: 18px;
     background-color: gray;
     color: white;
     display: flex;
@@ -86,9 +85,9 @@ html, body {
 .box-section {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
     padding: 50px;
-    flex-wrap: wrap;
 }
 
 .box-item {
@@ -108,7 +107,14 @@ html, body {
   background-color: transparent; /* keep it empty */
 }
 
+.avatar {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
 .text {
+    margin: 10px;
     color: gray;
     font-size: 14px;
     color: #6b7280;
@@ -141,7 +147,6 @@ html, body {
     text-align: right;
     color: #1f2937;
 }
-
 
 
 .blue-box {
